@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaCamera } from "react-icons/fa";
+import Card from "./Card";
 function Profile() {
   const [bannerUrl, setBannerUrl] = useState<string | null>(
     "https://placehold.co/1500x400"
@@ -75,6 +76,7 @@ function Profile() {
           </button>
         </div>
       </div>
+      <Card />
     </div>
   );
 }
