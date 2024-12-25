@@ -61,6 +61,19 @@ function Profile() {
             onChange={handleProfileUpload}
           />
         </button>
+
+        <div className="ml-4 mt-4">
+          <h1 className="text-2xl font-bold ml-[4rem]">Aziz</h1>
+          <p className="ml-[4rem]">Software engineering student</p>
+          <p className="mt-2 ml-[4rem]">
+            I am a dedicated software engineering student with a passion for
+            developing innovative programs that expedite the efficiency and
+            effectiveness of organizational success.
+          </p>
+          <button className="mt-4 ml-[4rem] bg-cyan-600 text-white py-2 px-4 rounded hover:bg-cyan-500">
+            Contact
+          </button>
+        </div>
       </div>
     </div>
   );
